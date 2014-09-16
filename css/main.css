@@ -124,3 +124,22 @@ body {
   border-right: 10px solid transparent;
   border-top: 10px solid #000;
 }
+
+
+.chart__item {
+  transition: all 500ms linear;
+}
+
+.chart__item:hover {
+  background-color: #999999;
+}
+
+.chart__label {
+  transition: all 500ms linear;
+  opacity: 0.7;
+}
+
+.chart__item:hover .chart__label {
+  color: #fff;
+  opacity: 1;
+}
